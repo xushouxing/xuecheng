@@ -12,6 +12,7 @@ public class CustomException extends RuntimeException {
     }
 
     public ResultCode getResultCode() {
+        System.out.println("hello");
         return resultCode;
     }
 }
